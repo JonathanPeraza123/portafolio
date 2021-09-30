@@ -1,6 +1,9 @@
 const links = document.querySelectorAll(".navbar .navbar-collapse div a");
 const MiWork = document.getElementById("work");
     MiWork.addEventListener("click", clickHandler)
+const Ficha = document.getElementById("ficha")
+    Ficha.addEventListener("click", clickHandler)
+
 
 for (const link of links) {
   link.addEventListener("click", clickHandler);
